@@ -17,7 +17,7 @@ This can be done using lines or a wireframe:
 
 Or through light and shadow, positioning shapes of different tones and forms to simulate how light interacts with a sphere.
 
-<img src="assets/img2.png" alt="Sphere with light and shadow">
+<img src="assets/img2.jpg" alt="Sphere with light and shadow">
 
 With just one circle and three tones, we can create a sphere. Now let’s organize the problem-solving steps:
 
@@ -28,15 +28,15 @@ With just one circle and three tones, we can create a sphere. Now let’s organi
 Let's start by creating a `<div>` and giving it the class `sphere`.  
 This `div` is the shapeless and colorless mass that we will style to become the sphere.
 
-<img src="assets/img3.png" alt="first code">
+<img src="assets/img3.PNG" alt="first code">
 
 We’ll set the background to black, turn the `<body>` into a flex container to center the sphere both horizontally and vertically, and set the body's height to 100% of the viewport height.
 
-<img src="assets/img4.png" alt="body code">
+<img src="assets/img4.PNG" alt="body code">
 
 Result:
 
-<img src="assets/img5.png" alt="first result">
+<img src="assets/img5.PNG" alt="first result">
 
 Now let’s make the sphere:
 
@@ -70,14 +70,14 @@ To finish this part, we add: `position: relative`
 
 We apply a relative position so the glow we’ll apply later can be positioned relative to `.sphere`.
 
-<img src="assets/img6.png" alt="sphere code">
+<img src="assets/img6.PNG" alt="sphere code">
 
 Result:
-<img src="assets/img7.png" alt="second result">
+<img src="assets/img7.PNG" alt="second result">
 
 Let’s finish by applying the glow:
 
-<img src="assets/img8.png" alt="sphere after">
+<img src="assets/img8.PNG" alt="sphere after">
 
 
 - `.sphere::after {` seleciona o pseudo-elemento `::after` da `.sphere`. A pseudo-element is a keyword added to a selector that lets you **style a specific part** of an element, or **inject extra elements** for decoration. The most commonly used ones are `::before` and `::after`.
@@ -93,7 +93,7 @@ Let’s finish by applying the glow:
 
 Result:
 
-<img src="assets/img9.png" alt="final result">
+<img src="assets/img9.PNG" alt="final result">
 
 I became interested in this after discovering the work of Diana Adrianne Smith and her wonderful pure CSS illustrations, so I wanted to play a little with this unique type of art.
 I don’t know if I’ll create projects as impressive as hers, but I think practicing this is a fun way to learn CSS.
