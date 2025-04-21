@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cel-Shaded Sphere</title>
+  <style>
+    body {
+      background: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .sphere {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 35%, #4eb1ff 40%, #003366 41%);
+      box-shadow: inset -20px -20px 40px rgba(0, 0, 0, 0.676);
+      position: relative;
+    }
+
+    .sphere::after {
+      content: "";
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.4);
+      filter: blur(2px);
+    }
+  </style>
+</head>
+<body>
+  <div class="sphere"></div>
+</body>
+</html>
