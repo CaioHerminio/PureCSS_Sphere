@@ -12,7 +12,7 @@ So first, what is a sphere?  Literally, a sphere is a 3D circle. Visually, when 
 
 This can be done using lines or a wireframe:
 
-<img src="assets/img1.png" alt="Sphere wireframe example">
+<img src="assets/img1.jpg" alt="Sphere wireframe example">
 
 
 Or through light and shadow, positioning shapes of different tones and forms to simulate how light interacts with a sphere.
