@@ -83,9 +83,9 @@ Let’s finish by applying the glow:
 - `.sphere::after {` seleciona o pseudo-elemento `::after` da `.sphere`. A pseudo-element is a keyword added to a selector that lets you **style a specific part** of an element, or **inject extra elements** for decoration. The most commonly used ones are `::before` and `::after`.
     - `::before`  inserts content **before** the element's actual content
     - `::after`  inserts content **after** the element's actual content
-- `content: "";` Obrigatório para que o pseudo-elemento apareça, mesmo que esteja vazio.
-- `position: absolute;`  Posiciona esse pseudo-elemento de forma **absoluta** dentro da `.sphere`. Isso só funciona porque `.sphere` tem `position: relative`, tornando-se o **referencial** para o posicionamento.
-- `top: 25px; left: 25px;` Coloca o brilho **25 pixels do topo e da esquerda** da esfera.
+- `content: "";` is required for the pseudo-element to appear
+- `position: absolute;`  position: absolute; Positions this pseudo-element absolutely inside the .sphere. This only works because .sphere has position: relative, making it the reference point for positioning.
+- `top: 25px; left: 25px;` places the glow 25px from the top-left.
 - `width` and `height` of 40px make it a small circle
 - `border-radius: 50%;` makes it perfectly round
 - `background: rgba(255, 255, 255, 0.4);` gives it a translucent white color
